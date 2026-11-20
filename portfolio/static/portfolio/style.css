@@ -193,3 +193,10 @@ body::after {
     margin-bottom: 2rem;
     font-size: 1.8rem;
 }
+body.dark-theme .text-muted {
+    color: #94a3b8 !important;
+}
+
+body.dark-theme .card-body p {
+    color: #cbd5e1 !important; /* Чуть более светлый для описания */
+}
