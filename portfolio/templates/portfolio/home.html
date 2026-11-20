@@ -23,8 +23,7 @@
 
 <nav class="navbar navbar-expand-lg sticky-top py-3 mb-5">
     <div class="container">
-        <!-- ИСПРАВЛЕНО: надпись Портфолио -->
-        <a class="navbar-brand fs-4" href="/">Портфолио.</a>
+        <a class="navbar-brand fs-4" href="/">Портфолио</a>
         <div class="d-flex gap-2">
             {% if profile.gb %}
                 <a href="{{ profile.gb }}" target="_blank" class="btn btn-outline-custom btn-sm">GitHub</a>
@@ -140,7 +139,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 
 <script>
-    // 1. Логика темной темы
+    //Темная тема
     const toggleBtn = document.getElementById('theme-toggle');
     const body = document.body;
     
@@ -160,12 +159,12 @@
         }
     });
 
-    // 2. Логика 3D-наклона
+    //3D наклон
     VanillaTilt.init(document.querySelectorAll(".glass-card"), {
         max: 5, speed: 400, glare: true, "max-glare": 0.1
     });
 
-    // 3. Логика печатной машинки
+    //Печатная машинка
     const typeWriterElement = document.getElementById('typewriter');
     if (typeWriterElement) {
         const text = typeWriterElement.getAttribute('data-text');
