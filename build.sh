@@ -13,4 +13,4 @@ python manage.py migrate
 
 # Создаем суперпользователя (админа)
 # Команда || true нужна, чтобы сборка не упала, если админ уже создан
-python manage.py createsuperuser --noinput --username admin --email admin@example.com || true
+python manage.py createsuperuser --noinput --username vovan3757 --email admin@example.com || true
